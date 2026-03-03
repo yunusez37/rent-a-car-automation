@@ -1,0 +1,202 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>anaPencere</class>
+ <widget class="QWidget" name="anaPencere">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>496</width>
+    <height>365</height>
+   </rect>
+  </property>
+  <property name="mouseTracking">
+   <bool>false</bool>
+  </property>
+  <property name="windowTitle">
+   <string>anaPencere</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">QWidget#centralwidget, QDialog {
+    background-color: #EAEDED; /* &quot;Platinum&quot; Gri */
+}</string>
+  </property>
+  <widget class="QGroupBox" name="groupBox">
+   <property name="geometry">
+    <rect>
+     <x>30</x>
+     <y>100</y>
+     <width>441</width>
+     <height>241</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QGroupBox { background-color: #FFFFF0; border: 1px solid #DDDDDD; border-radius: 12px; margin-top: 25px; padding-top: 10px; } QGroupBox::title { subcontrol-origin: margin; subcontrol-position: top left; padding: 0 5px; font-size: 16px; font-weight: bold; color: #555555; }
+</string>
+   </property>
+   <property name="title">
+    <string/>
+   </property>
+   <widget class="QPushButton" name="musteri_bilgileri">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>70</y>
+      <width>181</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>-1</pointsize>
+      <italic>false</italic>
+      <bold>true</bold>
+      <underline>false</underline>
+      <strikeout>false</strikeout>
+     </font>
+    </property>
+    <property name="cursor">
+     <cursorShape>PointingHandCursor</cursorShape>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton { background-color: #1c6071;  color: white; font-size: 10px; font-weight: bold; padding: 10px 30px; border-radius: 8px; border: none; } QPushButton:hover { background-color: #27ae60; }</string>
+    </property>
+    <property name="text">
+     <string>MÜŞTERİ BİLGİLERİ</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="arac_bilgileri">
+    <property name="geometry">
+     <rect>
+      <x>240</x>
+      <y>70</y>
+      <width>181</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>-1</pointsize>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="cursor">
+     <cursorShape>PointingHandCursor</cursorShape>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton { background-color: #1c6071;  color: white; font-size: 10px; font-weight: bold; padding: 10px 30px; border-radius: 8px; border: none; } QPushButton:hover { background-color: #27ae60; }</string>
+    </property>
+    <property name="text">
+     <string>ARAÇ BİLGİLERİ</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="kirlama_islem">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>140</y>
+      <width>181</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>-1</pointsize>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="cursor">
+     <cursorShape>PointingHandCursor</cursorShape>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton { background-color: #1c6071;  color: white; font-size: 10px; font-weight: bold; padding: 10px 30px; border-radius: 8px; border: none; } QPushButton:hover { background-color: #27ae60; }</string>
+    </property>
+    <property name="text">
+     <string>KİRALAMA İŞLEMLERİ</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="aktif_kiralama">
+    <property name="geometry">
+     <rect>
+      <x>240</x>
+      <y>140</y>
+      <width>181</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>-1</pointsize>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="cursor">
+     <cursorShape>PointingHandCursor</cursorShape>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton { background-color: #1c6071;  color: white; font-size: 10px; font-weight: bold; padding: 10px 30px; border-radius: 8px; border: none; } QPushButton:hover { background-color: #27ae60; }</string>
+    </property>
+    <property name="text">
+     <string>AKTİF KİRALAMA TAKİBİ</string>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QPushButton" name="baslik_kutu">
+   <property name="geometry">
+    <rect>
+     <x>30</x>
+     <y>30</y>
+     <width>441</width>
+     <height>51</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>-1</pointsize>
+     <italic>false</italic>
+     <bold>true</bold>
+     <underline>false</underline>
+     <strikeout>false</strikeout>
+    </font>
+   </property>
+   <property name="cursor">
+    <cursorShape>PointingHandCursor</cursorShape>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton { background-color: #1c6071;  color: white; font-size: 8px; font-weight: bold; padding: 10px 30px; border-radius: 8px; border: none; }</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QLabel" name="baslik">
+   <property name="geometry">
+    <rect>
+     <x>30</x>
+     <y>40</y>
+     <width>441</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>Marlett</family>
+     <pointsize>19</pointsize>
+     <italic>false</italic>
+     <bold>true</bold>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true"># ffffff</string>
+   </property>
+   <property name="text">
+    <string>ARAÇ KİRALAMA OTOMASYONU</string>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignmentFlag::AlignCenter</set>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

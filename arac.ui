@@ -1,0 +1,571 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Form</class>
+ <widget class="QWidget" name="Form">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>626</width>
+    <height>467</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <widget class="QGroupBox" name="groupBox">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>120</y>
+     <width>191</width>
+     <height>241</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QGroupBox { background-color: #FFFFF0; border: 1px solid #DDDDDD; border-radius: 12px; margin-top: 25px; padding-top: 10px; } QGroupBox::title { subcontrol-origin: margin; subcontrol-position: top left; padding: 0 5px; font-size: 16px; font-weight: bold; color: #555555; }
+</string>
+   </property>
+   <property name="title">
+    <string/>
+   </property>
+   <widget class="QWidget" name="layoutWidget">
+    <property name="geometry">
+     <rect>
+      <x>90</x>
+      <y>30</y>
+      <width>101</width>
+      <height>211</height>
+     </rect>
+    </property>
+    <layout class="QVBoxLayout" name="verticalLayout">
+     <item>
+      <widget class="QComboBox" name="comboBox_2">
+       <property name="styleSheet">
+        <string notr="true">QLineEdit, QComboBox, QSpinBox, QTextEdit { background-color: #FFFFFF; color: #333333; border: 1px solid #CCCCCC; border-radius: 6px; padding: 6px; } QLineEdit:focus, QComboBox:focus, QSpinBox:focus, QTextEdit:focus { border: 2px solid #FFC300;  }</string>
+       </property>
+       <item>
+        <property name="text">
+         <string>Otomobil</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Arazi / SUV</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Ticari</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Motosiklet</string>
+        </property>
+       </item>
+      </widget>
+     </item>
+     <item>
+      <widget class="QLineEdit" name="lineEdit_3">
+       <property name="styleSheet">
+        <string notr="true">QLineEdit, QComboBox, QSpinBox, QTextEdit { background-color: #FFFFFF; color: #333333; border: 1px solid #CCCCCC; border-radius: 6px; padding: 6px; } QLineEdit:focus, QComboBox:focus, QSpinBox:focus, QTextEdit:focus { border: 2px solid #FFC300;  }</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QLineEdit" name="lineEdit">
+       <property name="styleSheet">
+        <string notr="true">QLineEdit, QComboBox, QSpinBox, QTextEdit { background-color: #FFFFFF; color: #333333; border: 1px solid #CCCCCC; border-radius: 6px; padding: 6px; } QLineEdit:focus, QComboBox:focus, QSpinBox:focus, QTextEdit:focus { border: 2px solid #FFC300; }</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QLineEdit" name="lineEdit_2">
+       <property name="styleSheet">
+        <string notr="true">QLineEdit, QComboBox, QSpinBox, QTextEdit { background-color: #FFFFFF; color: #333333; border: 1px solid #CCCCCC; border-radius: 6px; padding: 6px; } QLineEdit:focus, QComboBox:focus, QSpinBox:focus, QTextEdit:focus { border: 2px solid #FFC300; /* Odaklanınca sarı */ }</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QSpinBox" name="spinBox">
+       <property name="styleSheet">
+        <string notr="true">QLineEdit, QComboBox, QSpinBox, QTextEdit { background-color: #FFFFFF; color: #333333; border: 1px solid #CCCCCC; border-radius: 6px; padding: 6px; } QLineEdit:focus, QComboBox:focus, QSpinBox:focus, QTextEdit:focus { border: 2px solid #FFC300; /* Odaklanınca sarı */ }</string>
+       </property>
+       <property name="minimum">
+        <number>1990</number>
+       </property>
+       <property name="maximum">
+        <number>2025</number>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </widget>
+   <widget class="QLabel" name="label">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>0</y>
+      <width>161</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QLabel { font-size: 18px; font-weight: bold; color: #555555; padding: 5px;  }</string>
+    </property>
+    <property name="text">
+     <string>TEMEL BİLGİLER</string>
+    </property>
+   </widget>
+   <widget class="QWidget" name="layoutWidget">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>32</y>
+      <width>52</width>
+      <height>211</height>
+     </rect>
+    </property>
+    <layout class="QVBoxLayout" name="verticalLayout_5">
+     <item>
+      <widget class="QLabel" name="label_5">
+       <property name="text">
+        <string>ARAÇ TÜRÜ:</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QLabel" name="label_6">
+       <property name="text">
+        <string>MARKA:</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QLabel" name="label_7">
+       <property name="text">
+        <string>MODEL:</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QLabel" name="label_9">
+       <property name="text">
+        <string>RENK:</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QLabel" name="label_8">
+       <property name="text">
+        <string>ÜRETİM YILI:</string>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </widget>
+  </widget>
+  <widget class="QGroupBox" name="groupBox_2">
+   <property name="geometry">
+    <rect>
+     <x>210</x>
+     <y>130</y>
+     <width>191</width>
+     <height>331</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QGroupBox { background-color: #FFFFF0; border: 1px solid #DDDDDD; border-radius: 12px; margin-top: 25px; padding-top: 10px; } QGroupBox::title { subcontrol-origin: margin; subcontrol-position: top left; padding: 0 5px; font-size: 16px; font-weight: bold; color: #555555; }</string>
+   </property>
+   <property name="title">
+    <string/>
+   </property>
+   <widget class="QWidget" name="layoutWidget">
+    <property name="geometry">
+     <rect>
+      <x>100</x>
+      <y>20</y>
+      <width>91</width>
+      <height>261</height>
+     </rect>
+    </property>
+    <layout class="QVBoxLayout" name="verticalLayout_2">
+     <item>
+      <widget class="QComboBox" name="comboBox">
+       <property name="styleSheet">
+        <string notr="true">QLineEdit, QComboBox, QSpinBox, QTextEdit { background-color: #FFFFFF; color: #333333; border: 1px solid #CCCCCC; border-radius: 6px; padding: 6px; } QLineEdit:focus, QComboBox:focus, QSpinBox:focus, QTextEdit:focus { border: 2px solid #FFC300; }</string>
+       </property>
+       <item>
+        <property name="text">
+         <string>Benzin</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Dizel</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>LPG</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Elektrik</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Hibrit</string>
+        </property>
+       </item>
+      </widget>
+     </item>
+     <item>
+      <widget class="QLineEdit" name="lineEdit_menzil">
+       <property name="styleSheet">
+        <string notr="true">QLineEdit, QComboBox, QSpinBox, QTextEdit { background-color: #FFFFFF; color: #333333; border: 1px solid #CCCCCC; border-radius: 6px; padding: 6px; } QLineEdit:focus, QComboBox:focus, QSpinBox:focus, QTextEdit:focus { border: 2px solid #FFC300;  }</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QComboBox" name="comboBox_5">
+       <property name="styleSheet">
+        <string notr="true">QLineEdit, QComboBox, QSpinBox, QTextEdit { background-color: #FFFFFF; color: #333333; border: 1px solid #CCCCCC; border-radius: 6px; padding: 6px; } QLineEdit:focus, QComboBox:focus, QSpinBox:focus, QTextEdit:focus { border: 2px solid #FFC300; }
+</string>
+       </property>
+       <item>
+        <property name="text">
+         <string>Sedan</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Hatchback</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Station Wagon</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Cabrio</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Coupe</string>
+        </property>
+       </item>
+      </widget>
+     </item>
+     <item>
+      <widget class="QLineEdit" name="lineEdit_4">
+       <property name="styleSheet">
+        <string notr="true">QLineEdit, QComboBox, QSpinBox, QTextEdit { background-color: #FFFFFF; color: #333333; border: 1px solid #CCCCCC; border-radius: 6px; padding: 6px; } QLineEdit:focus, QComboBox:focus, QSpinBox:focus, QTextEdit:focus { border: 2px solid #FFC300;  }</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QComboBox" name="comboBox_3">
+       <property name="styleSheet">
+        <string notr="true">QLineEdit, QComboBox, QSpinBox, QTextEdit { background-color: #FFFFFF; color: #333333; border: 1px solid #CCCCCC; border-radius: 6px; padding: 6px; } QLineEdit:focus, QComboBox:focus, QSpinBox:focus, QTextEdit:focus { border: 2px solid #FFC300; }</string>
+       </property>
+       <item>
+        <property name="text">
+         <string>Önden Çekiş</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Arkadan İtiş</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>AWD</string>
+        </property>
+       </item>
+      </widget>
+     </item>
+     <item>
+      <widget class="QComboBox" name="comboBox_4">
+       <property name="styleSheet">
+        <string notr="true">QLineEdit, QComboBox, QSpinBox, QTextEdit { background-color: #FFFFFF; color: #333333; border: 1px solid #CCCCCC; border-radius: 6px; padding: 6px; } QLineEdit:focus, QComboBox:focus, QSpinBox:focus, QTextEdit:focus { border: 2px solid #FFC300; }</string>
+       </property>
+       <item>
+        <property name="text">
+         <string>Manuel</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Otomatik</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Yarı Otomatik</string>
+        </property>
+       </item>
+      </widget>
+     </item>
+    </layout>
+   </widget>
+   <widget class="QLabel" name="label_2">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>0</y>
+      <width>161</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QLabel { font-size: 18px; font-weight: bold; color: #555555; padding: 5px; 
+ }</string>
+    </property>
+    <property name="text">
+     <string>TEKNİK BİLGİLER</string>
+    </property>
+   </widget>
+   <widget class="QWidget" name="layoutWidget_2">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>30</y>
+      <width>81</width>
+      <height>251</height>
+     </rect>
+    </property>
+    <layout class="QVBoxLayout" name="verticalLayout_6">
+     <item>
+      <widget class="QLabel" name="label_10">
+       <property name="text">
+        <string>YAKIT TÜRÜ:</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QLabel" name="label_menzil">
+       <property name="text">
+        <string>MENZİL:</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QLabel" name="label_12">
+       <property name="text">
+        <string>KASA TİPİ:</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QLabel" name="label_13">
+       <property name="text">
+        <string>MOTOR GÜCÜ:</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QLabel" name="label_14">
+       <property name="text">
+        <string>ÇEKİŞ:</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QLabel" name="label_18">
+       <property name="text">
+        <string>VİTES:</string>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </widget>
+  </widget>
+  <widget class="QGroupBox" name="groupBox_3">
+   <property name="geometry">
+    <rect>
+     <x>410</x>
+     <y>120</y>
+     <width>191</width>
+     <height>241</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QGroupBox { background-color: #FFFFF0; border: 1px solid #DDDDDD; border-radius: 12px; margin-top: 25px; padding-top: 10px; } QGroupBox::title { subcontrol-origin: margin; subcontrol-position: top left; padding: 0 5px; font-size: 16px; font-weight: bold; color: #555555; }</string>
+   </property>
+   <property name="title">
+    <string/>
+   </property>
+   <widget class="QWidget" name="layoutWidget">
+    <property name="geometry">
+     <rect>
+      <x>100</x>
+      <y>30</y>
+      <width>91</width>
+      <height>211</height>
+     </rect>
+    </property>
+    <layout class="QVBoxLayout" name="verticalLayout_3">
+     <item>
+      <widget class="QDoubleSpinBox" name="doubleSpinBox">
+       <property name="styleSheet">
+        <string notr="true">QLineEdit, QComboBox, QSpinBox, QTextEdit { background-color: #FFFFFF; color: #333333; border: 1px solid #CCCCCC; border-radius: 6px; padding: 6px; } QLineEdit:focus, QComboBox:focus, QSpinBox:focus, QTextEdit:focus { border: 2px solid #FFC300; }</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QLineEdit" name="lineEdit_5">
+       <property name="styleSheet">
+        <string notr="true">QLineEdit, QComboBox, QSpinBox, QTextEdit { background-color: #FFFFFF; color: #333333; border: 1px solid #CCCCCC; border-radius: 6px; padding: 6px; } QLineEdit:focus, QComboBox:focus, QSpinBox:focus, QTextEdit:focus { border: 2px solid #FFC300;  }</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QLineEdit" name="lineEdit_6">
+       <property name="styleSheet">
+        <string notr="true">QLineEdit, QComboBox, QSpinBox, QTextEdit { background-color: #FFFFFF; color: #333333; border: 1px solid #CCCCCC; border-radius: 6px; padding: 6px; } QLineEdit:focus, QComboBox:focus, QSpinBox:focus, QTextEdit:focus { border: 2px solid #FFC300; }</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QCheckBox" name="checkBox">
+       <property name="styleSheet">
+        <string notr="true">QLineEdit, QComboBox, QSpinBox, QTextEdit { background-color: #FFFFFF; color: #333333; border: 1px solid #CCCCCC; border-radius: 6px; padding: 6px; } QLineEdit:focus, QComboBox:focus, QSpinBox:focus, QTextEdit:focus { border: 2px solid #FFC300; /* Odaklanınca sarı */ }</string>
+       </property>
+       <property name="text">
+        <string>Kirada Mı?</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QCheckBox" name="checkBox_2">
+       <property name="styleSheet">
+        <string notr="true">QLineEdit, QComboBox, QSpinBox, QTextEdit { background-color: #FFFFFF; color: #333333; border: 1px solid #CCCCCC; border-radius: 6px; padding: 6px; } QLineEdit:focus, QComboBox:focus, QSpinBox:focus, QTextEdit:focus { border: 2px solid #FFC300; /* Odaklanınca sarı */ }</string>
+       </property>
+       <property name="text">
+        <string>Kullanım Dışı Mı?</string>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </widget>
+   <widget class="QLabel" name="label_3">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>0</y>
+      <width>141</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QLabel { font-size: 18px; font-weight: bold; color: #555555; padding: 5px; 
+ }</string>
+    </property>
+    <property name="text">
+     <string>ARAÇ DURUM</string>
+    </property>
+   </widget>
+   <widget class="QWidget" name="layoutWidget_3">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>30</y>
+      <width>85</width>
+      <height>131</height>
+     </rect>
+    </property>
+    <layout class="QVBoxLayout" name="verticalLayout_7">
+     <item>
+      <widget class="QLabel" name="label_15">
+       <property name="text">
+        <string>GÜNLÜK KİRALAMA:</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QLabel" name="label_16">
+       <property name="text">
+        <string>ŞASİ NO:</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QLabel" name="label_17">
+       <property name="text">
+        <string>MOTOR NO:</string>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </widget>
+  </widget>
+  <widget class="QGroupBox" name="groupBox_4">
+   <property name="geometry">
+    <rect>
+     <x>160</x>
+     <y>10</y>
+     <width>301</width>
+     <height>80</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QGroupBox { background-color: #1c6071; border: 1px solid #DDDDDD; border-radius: 12px; margin-top: 25px; padding-top: 10px; } QGroupBox::title { subcontrol-origin: margin; subcontrol-position: top left; padding: 0 5px; font-size: 16px; font-weight: bold; color: #555555; }</string>
+   </property>
+   <property name="title">
+    <string/>
+   </property>
+   <widget class="QLabel" name="label_4">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>40</y>
+      <width>301</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>MS Gothic</family>
+      <pointsize>-1</pointsize>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QLabel { font-size: 18px; font-weight: bold; color: #FFFFFF; padding: 5px;  }</string>
+    </property>
+    <property name="text">
+     <string>ARAÇ BİLGİLERİ GİRİŞ</string>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignmentFlag::AlignCenter</set>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QPushButton" name="pushButton">
+   <property name="geometry">
+    <rect>
+     <x>410</x>
+     <y>370</y>
+     <width>201</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton { background-color: #1c6071;  color: white; font-size: 18px; font-weight: bold; padding: 10px 30px; border-radius: 8px; border: none; } QPushButton:hover { background-color: #27ae60; }</string>
+   </property>
+   <property name="text">
+    <string>ARACI KAYDET</string>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
